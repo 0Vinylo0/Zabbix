@@ -6,6 +6,8 @@ Zabbix es una solución de monitoreo de código abierto utilizada para rastrear 
 ### ¿Cómo funciona Zabbix?
 Zabbix recopila datos en tiempo real desde diversos dispositivos utilizando agentes, protocolos estándar como SNMP, IPMI, y monitoreo sin agentes mediante consultas HTTP o SSH. Estos datos se almacenan en una base de datos y pueden visualizarse mediante gráficos, alertas y paneles de control. Zabbix permite automatizar respuestas y tomar acciones correctivas ante eventos definidos.
 
+<img src="/img/Zabbix_logo.png" alt="GIF" width="200" height="75" align="right">
+
 ### ¿Para qué sirve Zabbix?
 Zabbix se utiliza para:
 - Monitoreo de servidores, redes y aplicaciones.
@@ -14,6 +16,8 @@ Zabbix se utiliza para:
 - Integración con herramientas de terceros como Grafana o Telegram.
 
 ## Contenido
+
+
 
 1. [Requisitos del Sistema](./docs/requisitos.md)
 2. [Guía de Instalación](./docs/instalacion.md)
