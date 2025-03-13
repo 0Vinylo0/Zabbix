@@ -48,46 +48,6 @@ sudo yum install -y httpd php
 sudo yum install -y nginx php-fpm
 ```
 
-## Configuración de la Base de Datos
-
-### Configuración en MySQL/MariaDB
-```bash
-mysql -u root -p
-CREATE DATABASE zabbix CHARACTER SET utf8 COLLATE utf8_bin;
-CREATE USER 'zabbix'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON zabbix.* TO 'zabbix'@'localhost';
-FLUSH PRIVILEGES;
-EXIT;
-```
-
-### Configuración en PostgreSQL
-```bash
-sudo -u postgres createuser --pwprompt zabbix
-sudo -u postgres createdb -O zabbix zabbix
-```
-
-## Configuración del Servidor Zabbix
-
-1. Editar el archivo de configuración de Zabbix Server:
-   ```bash
-   sudo nano /etc/zabbix/zabbix_server.conf
-   ```
-   - Configurar la base de datos según corresponda:
-     **Para MySQL/MariaDB:**
-     ```
-     DBHost=localhost
-     DBName=zabbix
-     DBUser=zabbix
-     DBPassword=password
-     ```
-     **Para PostgreSQL:**
-     ```
-     DBHost=localhost
-     DBName=zabbix
-     DBUser=zabbix
-     DBPassword=password
-     ```
-
 2. Reiniciar servicios:
    ```bash
    sudo systemctl restart zabbix-server zabbix-agent
