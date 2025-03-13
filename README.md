@@ -20,9 +20,10 @@ Zabbix se utiliza para:
 3. [Configuración Inicial](./docs/configuracion-inicial.md)
 4. [Configuración Avanzada](./docs/configuracion-avanzada.md)
 5. [Monitoreo de Servidores y Equipos](./docs/monitoreo.md)
-6. [Alertas y Notificaciones](./docs/alertas.md)
-7. [Optimización y Mejores Prácticas](./docs/optimizacion.md)
-8. [Solución de Problemas (Troubleshooting)](./docs/troubleshooting.md)
+6. [Expresiones para alertas](./docs/expresiones.md)
+7. [Alertas y Notificaciones](./docs/alertas.md)
+8. [Optimización y Mejores Prácticas](./docs/optimizacion.md)
+9. [Solución de Problemas (Troubleshooting)](./docs/troubleshooting.md)
 
 ## Referencias
 - [Documentación Oficial de Zabbix](https://www.zabbix.com/documentation/current/)
