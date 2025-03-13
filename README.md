@@ -1,4 +1,4 @@
-# Zabbix - Documentación Completa
+# Zabbix - Documentación
 
 ## Introducción
 Zabbix es una solución de monitoreo de código abierto utilizada para rastrear el rendimiento y la disponibilidad de servidores, redes, aplicaciones y otros dispositivos de infraestructura de TI. 
